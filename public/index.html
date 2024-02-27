@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Podcast Creator</title>
+</head>
+<body>
+
+<h2>Podcast Creator</h2>
+<form id="uploadForm" enctype="multipart/form-data" method="post" action="/upload">
+    <input type="file" id="imageInput" name="image" accept="image/*" multiple required>
+    <input type="file" name="audio" accept="audio/*" required>
+    <button type="submit">Create Podcast</button>
+</form>
+
+
+<div id="imagePreviewContainer"></div>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
